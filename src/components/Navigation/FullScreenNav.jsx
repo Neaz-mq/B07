@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import React, { useContext, useRef } from 'react'
+import React, { useContext, useRef,  } from 'react'
 import { NavbarContext } from '../../context/NavContext'
 
 const FullScreenNav = () => {
@@ -8,7 +8,6 @@ const FullScreenNav = () => {
     const fullScreenRef = useRef(null)
 
     const [navOpen, setNavOpen] = useContext(NavbarContext)
-
     function gsapAnimation() {
         const tl = gsap.timeline()
         tl.to('.fullscreennav', {
