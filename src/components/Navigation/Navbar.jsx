@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navGreenRef = useRef(null);
-  const [navOpen, setNavOpen] = useContext(NavbarContext);
-  const [navColor, setNavColor] = useContext(NavbarColorContext);
+  const [, setNavOpen] = useContext(NavbarContext);
+  const [, ,] = useContext(NavbarColorContext);
 
   return (
     <div className="z-4 flex fixed top-0 w-full items-start justify-between">
