@@ -1,6 +1,7 @@
 import React, { useContext, useRef } from "react";
-import { NavbarColorContext, NavbarContext } from "../../context/NavContext";
+
 import { Link } from "react-router-dom";
+import { NavbarColorContext, NavbarContext } from "../../context/NavContexts";
 
 const Navbar = () => {
   const navGreenRef = useRef(null);
