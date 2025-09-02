@@ -1,4 +1,3 @@
-
 const Video = () => {
   return (
     <div className='h-full w-full'>
