@@ -81,7 +81,7 @@ const FullScreenNav = () => {
                 <div className="navlink flex w-full justify-between lg:p-5 p-2 items-start">
                     <div className=''>
                         <div className='lg:w-36 w-24'>
-                          <h1>B07</h1>
+                          <h1 className='text-6xl'>B07</h1>
                         </div>
                     </div>
                     <div onClick={() => {
